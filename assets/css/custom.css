@@ -1,0 +1,10 @@
+/*Custom Style Overrides*/
+
+.logo-light,
+.logo-dark {
+    height: 64px;
+}
+
+#intro .section-heading .section-title, #about .section-heading .section-title {
+    text-transform: capitalize;
+}
