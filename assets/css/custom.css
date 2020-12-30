@@ -8,3 +8,10 @@
 #intro .section-heading .section-title, #about .section-heading .section-title {
     text-transform: capitalize;
 }
+
+#intro .section-heading .wordmark-light {
+    max-width: 30em;
+    width: 100%;
+    margin: auto;
+    padding-left: 2em;
+}
