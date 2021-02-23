@@ -20,14 +20,14 @@
     GitHub Fork Ribbon
     https://simonwhitaker.github.io/github-fork-ribbon-css/
 */
-.ubuntu-budgie-landing .github-fork-ribbon {
+.github-fork-ribbon {
     z-index: 9998; /* Allow the preloader at 9999 to be on top */
 }
 
-.ubuntu-budgie-landing .github-fork-ribbon::before {
+.github-fork-ribbon::before {
     background-color: white;
 }
 
-.ubuntu-budgie-landing .github-fork-ribbon::after {
+.github-fork-ribbon::after {
     color: black;
 }
