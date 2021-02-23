@@ -25,9 +25,20 @@
 }
 
 .github-fork-ribbon::before {
-    background-color: white;
+    background-color: transparent;
+    transition: 0.4s;
 }
 
 .github-fork-ribbon::after {
+    color: white;
+    border-style: dashed;
+    transition: 0.4s;
+}
+
+.github-fork-ribbon:hover::before {
+    background-color: white;
+}
+
+.github-fork-ribbon:hover::after {
     color: black;
 }
